@@ -1,0 +1,69 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(159, 224, 224);
+    padding-top: 0px;
+}
+
+.elementonovo{
+    height: 70px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixatexto{
+    text-align: center;
+    padding: 40px 50px 0px 50px;
+    align-items: center;
+}
+
+.botao{
+    background-color: rgb(26, 26, 160);
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.botoes{
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    border-color: grey;
+    cursor: pointer;
+    border-width: 2px;
+    box-shadow: 0px;
+}
+
+.selecaocasa{
+    padding: 8px 30px 35px 30px;
+}
+
+.escola{
+    padding: 50px 100px;
+}
+
+footer{
+    color: grey;
+    text-align: center;
+}
+
+/* cola do chatgpt: */
+@media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .caixatexto {
+      padding-top: 80px;
+    }
+  
+    .escola {
+      margin-top: 50px;
+    }
+  }
+  
